@@ -4,11 +4,6 @@
 
 int main(int argc, char *argv[])
 {
-  if (argc < 2) {
-    std::cout << "\nThis app expects arguments\n";
-    exit(0);
-  }
-
   Navigation nav;
   nav.connect("127.0.0.1", 9000);
 
